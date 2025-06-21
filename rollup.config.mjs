@@ -33,12 +33,13 @@ export default [
         ...commonOutputConfig,
         file: 'dist/index.umd.js',
         format: 'umd',
-        globals: {}
+        globals: { valtio: 'valtio' }
       },
       {
         ...commonOutputConfig,
         file: 'dist/index.umd.min.js',
         format: 'umd',
+        globals: { valtio: 'valtio' },
         plugins: [terser()]
       }
     ],
