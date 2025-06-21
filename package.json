@@ -1,9 +1,8 @@
 {
-  "name": "create-valtio-state",
+  "name": "@jswork/create-valtio-state",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
-  "description": "todo:Build a typescript library with tsup.",
+  "description": "Create valtio state.",
   "license": "MIT",
   "files": [
     "src",
