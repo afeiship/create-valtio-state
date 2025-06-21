@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5", // 👈 ES5 输出
+    "module": "ESNext",
+    "moduleResolution": "node",  // 添加这行
+    "declaration": true,
+    "outDir": "dist",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ]
+}
