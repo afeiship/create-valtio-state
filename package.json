@@ -1,6 +1,6 @@
 {
   "name": "@jswork/create-valtio-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Create valtio state.",
   "license": "MIT",
@@ -53,5 +53,6 @@
   },
   "dependencies": {
     "valtio": "^2.1.5"
-  }
+  },
+  "keywords": []
 }
