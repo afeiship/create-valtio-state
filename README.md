@@ -37,5 +37,5 @@ const stateFromObject = createState({
   }
 });
 
-export { stateFromClass, stateFromObject, Counter };
+export { stateFromClass, stateFromObject };
 ```
